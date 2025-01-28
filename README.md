@@ -21,4 +21,7 @@ This project is a web application for students to submit their applications for 
 - Flask
 - SQLAlchemy
 - sqlite
-# I have Basic laptop only i can't download mysql in my macine thats why i use sqllite.(- MySQL/PostgreSQL)
+## I have Basic laptop only i can't download mysql in my macine thats why i use sqllite.
+
+## GitHub Url
+- https://github.com/Srinivasan-project/admission_system.git
