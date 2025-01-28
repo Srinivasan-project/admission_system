@@ -1,0 +1,21 @@
+students = [
+    ("Alice", 20, 85),
+    ("Bob", 22, 90),
+    ("Charlie", 19, 78)
+]
+
+l = sorted(students, key=lambda x: x[2])
+
+print(l)
+
+
+
+students = [
+    {"name": "Alice", "age": 20, "mark": 85},
+    {"name": "Bob", "age": 22, "mark": 90},
+    {"name": "Charlie", "age": 19, "mark": 78}
+]
+
+l = sorted(students, key=lambda x : x['mark'], reverse=True)
+
+print(l)

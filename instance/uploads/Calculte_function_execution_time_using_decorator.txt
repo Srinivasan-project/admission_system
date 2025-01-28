@@ -1,0 +1,18 @@
+import time
+def dec(funv):
+    def inner(*args, **kwargs):
+        print("Dec function called")
+        start = time.time()
+        result = funv(*args, **kwargs)
+        end = time.time()
+        print("Time taken for execution", start - end)
+        return result
+    return inner
+    
+    
+@dec
+def cal_time():
+    time.sleep(2)
+    print("Original func called")
+    
+cal_time()
